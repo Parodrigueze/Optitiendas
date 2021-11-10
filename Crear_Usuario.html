@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Crear Usuario</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Optitienda - Gestión de ventas e inventario</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+   
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Usuarios</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Crear_Usuario.html">Crear Usuario</a>
+        <a class="dropdown-item" href="Actualizar_Usuario.html">Actualizar Usuario</a>       
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Productos</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Crear_Usuario.html">Creación de Usuario</a>
+        <a class="dropdown-item" href="Actualizar_Usuario.html">Actualización de usuario</a>
+        <a class="dropdown-item" href="Eliminar_Usuario.html">Eliminación de Usuario</a>
+        <a class="dropdown-item" href="Consultar_Usuario.html">Consulta de Usuario</a>
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Usuario</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Crear_Usuario.html">Crear Usuario</a>
+        <a class="dropdown-item" href="Actualizar_Usuario.html">Actualizar Usuario</a>       
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Usuarios</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Crear_Usuario.html">Crear Usuario</a>
+        <a class="dropdown-item" href="Actualizar_Usuario.html">Actualizar Usuario</a>       
+      </div>
+    </li>
+
+
+   </ul>
+</nav>
+<br>
+  
+<div class="container">
+          <h1>Optitienda - Gestión de ventas e inventario</h1>
+          <br>
+          <h2>Crear Usuario</h2>
+
+          <form class="form-horizontal" role="form" method="POST">
+
+            <div class="form-group">
+              <label>Id Usuario:</label>
+              <input type="text" class="form-control" name="ID_Usuario" placeholder="Ingrese el código del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Primer Nombre:</label>
+              <input type="text" class="form-control" name="Primer_nombre" placeholder="Ingrese el primer nombre del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Segundo Nombre:</label>
+              <input type="text" class="form-control" name="Segundo_nombre" placeholder="Ingrese el segundo nombre del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Primer Apellido:</label>
+              <input type="text" class="form-control" name="Primer_apellido" placeholder="Ingrese el primer apellido del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Segundo Apellido:</label>
+              <input type="text" class="form-control" name="Segundo_apellido" placeholder="Ingrese el segundo apellido del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Tipo de documento:</label>
+	      <select name="Tipo_documento">
+		<option value="opcion1">Cédula de ciudadanía</option>
+		<option value="opcion2">Tarjeta de identidad</option>
+		<option value="opcion3">Cédula de extranjería</option>	
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Cargo:</label>
+              <input type="text" class="form-control" name="Cargo" placeholder="Ingrese el cargo del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Número del teléfono fijo:</label>
+              <input type="text" class="form-control" name="Numero_telefono_fijo" placeholder="Ingrese el número del teléfono fijo del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Número celular:</label>
+              <input type="text" class="form-control" name="Numero_celular" placeholder="Ingrese el número celular del usuario">
+            </div>
+
+            <div class="form-group">
+              <label>Otro número celular:</label>
+              <input type="text" class="form-control" name="Otro_numero_celular" placeholder="Ingrese otro número celular del usuario">
+            </div>
+
+
+            <div class="text-center">  
+              <button type="submit" name="submit" style="color:white; height:60px; width:300px; font-size:16px; BACKGROUND-COLOR: rgb(0,0,255)" class="btn btn-success">Guardar cliente</button>
+            </div>
+          </form>
+
+</div>
+
+</body>
+</html>
